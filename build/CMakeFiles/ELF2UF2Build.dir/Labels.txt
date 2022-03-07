@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/home/debjit/rp2040/dma_spi/build/CMakeFiles/ELF2UF2Build
+/home/debjit/rp2040/dma_spi/build/CMakeFiles/ELF2UF2Build.rule
+/home/debjit/rp2040/dma_spi/build/CMakeFiles/ELF2UF2Build-complete.rule
+/home/debjit/rp2040/dma_spi/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/home/debjit/rp2040/dma_spi/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/home/debjit/rp2040/dma_spi/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/home/debjit/rp2040/dma_spi/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
+/home/debjit/rp2040/dma_spi/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/home/debjit/rp2040/dma_spi/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/home/debjit/rp2040/dma_spi/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
