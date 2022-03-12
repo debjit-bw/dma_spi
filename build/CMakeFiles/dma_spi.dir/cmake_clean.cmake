@@ -72,6 +72,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
   "CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
   "CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+  "CMakeFiles/dma_spi.dir/image.c.obj"
   "dma_spi.elf"
   "dma_spi.pdb"
 )

@@ -1697,12 +1697,12 @@ pico-sdk/tools/clean:
 CMakeFiles/ELF2UF2Build.dir/all:
 	$(MAKE) -f CMakeFiles/ELF2UF2Build.dir/build.make CMakeFiles/ELF2UF2Build.dir/depend
 	$(MAKE) -f CMakeFiles/ELF2UF2Build.dir/build.make CMakeFiles/ELF2UF2Build.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=12 "Built target ELF2UF2Build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=11,12 "Built target ELF2UF2Build"
 .PHONY : CMakeFiles/ELF2UF2Build.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ELF2UF2Build.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/debjit/rp2040/dma_spi/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/debjit/rp2040/dma_spi/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ELF2UF2Build.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/debjit/rp2040/dma_spi/build/CMakeFiles 0
 .PHONY : CMakeFiles/ELF2UF2Build.dir/rule
@@ -1737,7 +1737,7 @@ CMakeFiles/dma_spi.dir/all: lib/GUI/CMakeFiles/GUI.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dma_spi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/debjit/rp2040/dma_spi/build/CMakeFiles 87
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/debjit/rp2040/dma_spi/build/CMakeFiles 88
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dma_spi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/debjit/rp2040/dma_spi/build/CMakeFiles 0
 .PHONY : CMakeFiles/dma_spi.dir/rule
@@ -1759,12 +1759,12 @@ CMakeFiles/dma_spi.dir/clean:
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num= "Built target bs2_default_padded_checksummed_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=72 "Built target bs2_default_padded_checksummed_asm"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/debjit/rp2040/dma_spi/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/debjit/rp2040/dma_spi/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/debjit/rp2040/dma_spi/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
@@ -1786,12 +1786,12 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_as
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=72 "Built target bs2_default_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num= "Built target bs2_default_bin"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/debjit/rp2040/dma_spi/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/debjit/rp2040/dma_spi/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/debjit/rp2040/dma_spi/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule
@@ -1840,7 +1840,7 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/clean:
 lib/Config/CMakeFiles/Config.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 	$(MAKE) -f lib/Config/CMakeFiles/Config.dir/build.make lib/Config/CMakeFiles/Config.dir/depend
 	$(MAKE) -f lib/Config/CMakeFiles/Config.dir/build.make lib/Config/CMakeFiles/Config.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target Config"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target Config"
 .PHONY : lib/Config/CMakeFiles/Config.dir/all
 
 # Build rule for subdir invocation for target.

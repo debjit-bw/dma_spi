@@ -58,24 +58,19 @@ const uint32_t transfer_count = image_size ;
 
 int main() {
     stdio_init_all();
-    stdio_usb_init();
 
-    int i = 10;
-    while (i > 0)
-    {
-        printf("Starting in %d\n", i);
-        i -= 1;
-        sleep_ms(1000);
-    }
-    // sleep_ms(10000);
+    // Enable SPI at 1 MHz and connect to GPIOs
+    spi_init(SPI_PORT, 1000 * 1000);
+    gpio_set_function(PICO_DEFAULT_SPI_RX_PIN, GPIO_FUNC_SPI);
+    gpio_init(PICO_DEFAULT_SPI_CSN_PIN);
+    gpio_set_function(PICO_DEFAULT_SPI_SCK_PIN, GPIO_FUNC_SPI);
+    gpio_set_function(PICO_DEFAULT_SPI_TX_PIN, GPIO_FUNC_SPI);
 
-    printf("Initializing SPI channel\n");
     // Initialize SPI channel (channel, baud rate set to 20MHz)
-    spi_init(SPI_PORT, 1000 * 1000) ;
+    spi_init(SPI_PORT, 20000000) ;
     // Format (channel, data bits per transfer, polarity, phase, order)
-    spi_set_format(SPI_PORT, 16, 0, 0, 0);
+    spi_set_format(SPI_PORT, 8, 0, 0, 0);
 
-    printf("Mapping signals to GPIO ports\n");
     // Map SPI signals to GPIO ports, acts like framed SPI with this CS mapping
     gpio_set_function(PIN_MISO, GPIO_FUNC_SPI);
     gpio_set_function(PIN_CS, GPIO_FUNC_SPI) ;
@@ -91,7 +86,6 @@ int main() {
 
 
     // Get a free channel, panic() if there are none
-    printf("Getting free DMA channel\n");
     int data_chan = dma_claim_unused_channel(true);
     // int ctrl_chan = dma_claim_unused_channel(true);
 
@@ -118,43 +112,35 @@ int main() {
     // 16 bit transfers. Read address increments after each transfer.
     // DREQ to Timer 0 is selected, so the DMA is throttled to audio rate
     dma_channel_config c2 = dma_channel_get_default_config(data_chan);
-    printf("Configuring DMA channel _A\n");
-    // 16 bit transfers
-    channel_config_set_transfer_data_size(&c2, DMA_SIZE_16);
-    printf("transfer size set\n");
+    // 8 bit transfers
+    channel_config_set_transfer_data_size(&c2, DMA_SIZE_8);
     // increment the read adddress, don't increment write address
     channel_config_set_read_increment(&c2, true);
-    printf("read increment set to true\n");
     channel_config_set_write_increment(&c2, false);
-    printf("write increment set to false\n");
     // // (X/Y)*sys_clk, where X is the first 16 bytes and Y is the second
     // // sys_clk is 125 MHz unless changed in code
     // dma_channel_set_timer0(0x0017ffff) ;
     // 0x3b means timer0 (see SDK manual)
     channel_config_set_dreq(&c2, spi_get_dreq(SPI_PORT, false));
-    printf("dreq set to true\n");
     // // chain to the controller DMA channel
     // channel_config_set_chain_to(&c2, ctrl_chan);
     // // set wrap boundary. This is why we needed alignment!
     // channel_config_set_ring(&c2, false, 9); // 1 << 9 byte boundary on read ptr
 
 
-    printf("Configuring DMA channel _B");
     dma_channel_configure(
         data_chan,          // Channel to be configured
         &c2,            // The configuration we just created
         &spi_get_hw(SPI_PORT)->dr, // write address
-        img_arr, // The initial read address
-        image_size, // Number of transfers; in this case each is 2 bytes.
-        true           // Don't start immediately.
+        img_arr, // The initial read address (AT NATURAL ALIGNMENT POINT)
+        image_size, // Number of transfers; in this case each is 1 byte.
+        false           // Don't start immediately.
     );
 
 
     // start the control channel
-    // printf("Attempting to start the data channel");
-    // dma_start_channel_mask(1u << data_chan) ;
-    printf("Un-claiming the DMA channel");
-    dma_channel_unclaim(data_chan);
+    dma_start_channel_mask(1u << data_chan) ;
+
     // Exit main.
     // No code executing!!
 

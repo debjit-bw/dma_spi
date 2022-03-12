@@ -2052,6 +2052,33 @@ home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) -f CMakeFiles/dma_spi.dir/build.make CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+image.obj: image.c.obj
+
+.PHONY : image.obj
+
+# target to build an object file
+image.c.obj:
+	$(MAKE) -f CMakeFiles/dma_spi.dir/build.make CMakeFiles/dma_spi.dir/image.c.obj
+.PHONY : image.c.obj
+
+image.i: image.c.i
+
+.PHONY : image.i
+
+# target to preprocess a source file
+image.c.i:
+	$(MAKE) -f CMakeFiles/dma_spi.dir/build.make CMakeFiles/dma_spi.dir/image.c.i
+.PHONY : image.c.i
+
+image.s: image.c.s
+
+.PHONY : image.s
+
+# target to generate assembly for a file
+image.c.s:
+	$(MAKE) -f CMakeFiles/dma_spi.dir/build.make CMakeFiles/dma_spi.dir/image.c.s
+.PHONY : image.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2270,6 +2297,9 @@ help:
 	@echo "... home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
 	@echo "... home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... image.obj"
+	@echo "... image.i"
+	@echo "... image.s"
 .PHONY : help
 
 

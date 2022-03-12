@@ -2227,5 +2227,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: generated/pico_base/pico/config_autogen.h
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: generated/pico_base/pico/version.h
 
+CMakeFiles/dma_spi.dir/image.c.obj: ../image.c
+
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 

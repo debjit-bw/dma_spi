@@ -70,9 +70,22 @@ CMakeFiles/dma_spi.dir/dma_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dma_spi.dir/dma_spi.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/debjit/rp2040/dma_spi/dma_spi.c -o CMakeFiles/dma_spi.dir/dma_spi.c.s
 
+CMakeFiles/dma_spi.dir/image.c.obj: CMakeFiles/dma_spi.dir/flags.make
+CMakeFiles/dma_spi.dir/image.c.obj: ../image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dma_spi.dir/image.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/image.c.obj   -c /home/debjit/rp2040/dma_spi/image.c
+
+CMakeFiles/dma_spi.dir/image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dma_spi.dir/image.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/debjit/rp2040/dma_spi/image.c > CMakeFiles/dma_spi.dir/image.c.i
+
+CMakeFiles/dma_spi.dir/image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dma_spi.dir/image.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/debjit/rp2040/dma_spi/image.c -o CMakeFiles/dma_spi.dir/image.c.s
+
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdlib/
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_gpi
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_cla
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_platfor
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_syn
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -150,12 +163,12 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_uar
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_time/time.c.obj: /home/debjit/rpi-pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_time/time.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_time/time.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -168,7 +181,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/debjit/rpi-pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -181,7 +194,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_time/timeou
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -194,7 +207,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_tim
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/sem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/sem.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -207,7 +220,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/sem.c.
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/lock_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -220,7 +233,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/lock_c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/mutex.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -233,7 +246,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/mutex.
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -246,7 +259,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_sync/critic
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/debjit/rpi-pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/datetime.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -259,7 +272,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/dateti
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/debjit/rpi-pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/pheap.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -272,7 +285,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/pheap.
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/debjit/rpi-pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/queue.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -285,7 +298,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/common/pico_util/queue.
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -298,7 +311,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_runtime
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -311,7 +324,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_clo
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -324,12 +337,12 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -342,7 +355,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_pll
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -355,7 +368,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_vre
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -368,7 +381,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_wat
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -381,7 +394,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_xos
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_printf/printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -394,12 +407,12 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_printf/
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -412,17 +425,17 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_bootrom
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -435,7 +448,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -448,22 +461,22 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -476,7 +489,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/f
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -489,12 +502,12 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/f
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -507,17 +520,17 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_malloc/
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -530,7 +543,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standar
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -543,7 +556,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_standar
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -556,7 +569,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio/s
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -569,7 +582,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_u
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -582,7 +595,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_u
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -595,7 +608,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_u
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -608,7 +621,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/ra
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -621,7 +634,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/portable/ra
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -634,7 +647,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -647,7 +660,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/device/usbd
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -660,7 +673,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/audio
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -673,7 +686,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/cdc/c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -686,7 +699,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/d
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -699,7 +712,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/dfu/d
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -712,7 +725,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/hid/h
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -725,7 +738,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/midi/
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -738,7 +751,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/msc/m
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -751,7 +764,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/e
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -764,7 +777,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/net/n
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -777,7 +790,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/usbtm
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -790,7 +803,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/vendo
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -803,7 +816,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/class/video
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/tusb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -816,7 +829,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/tusb.c.s: c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj   -c /home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -829,7 +842,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/lib/tinyusb/src/common/tusb
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -842,7 +855,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_fix/rp2
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -855,7 +868,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -868,7 +881,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_fla
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
@@ -881,7 +894,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_spi
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -894,7 +907,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_i2c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
@@ -907,7 +920,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_adc
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/dma_spi.dir/flags.make
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj   -c /home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -921,6 +934,7 @@ CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_dma
 # Object files for target dma_spi
 dma_spi_OBJECTS = \
 "CMakeFiles/dma_spi.dir/dma_spi.c.obj" \
+"CMakeFiles/dma_spi.dir/image.c.obj" \
 "CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
@@ -998,6 +1012,7 @@ dma_spi_OBJECTS = \
 dma_spi_EXTERNAL_OBJECTS =
 
 dma_spi.elf: CMakeFiles/dma_spi.dir/dma_spi.c.obj
+dma_spi.elf: CMakeFiles/dma_spi.dir/image.c.obj
 dma_spi.elf: CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 dma_spi.elf: CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 dma_spi.elf: CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -1080,7 +1095,7 @@ dma_spi.elf: lib/Fonts/libFonts.a
 dma_spi.elf: lib/Config/libConfig.a
 dma_spi.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 dma_spi.elf: CMakeFiles/dma_spi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking CXX executable dma_spi.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/debjit/rp2040/dma_spi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Linking CXX executable dma_spi.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dma_spi.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /home/debjit/rp2040/dma_spi/build/dma_spi.elf dma_spi.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /home/debjit/rp2040/dma_spi/build/dma_spi.elf dma_spi.bin

@@ -30,6 +30,7 @@ add_executable(
         dma_spi
         dma_spi.c
         image.c
+        image.h
         )
 
 target_link_libraries(

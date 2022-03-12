@@ -187,6 +187,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "/home/debjit/rp2040/dma_spi/build/CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
   "/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "/home/debjit/rp2040/dma_spi/build/CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
   "/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "/home/debjit/rp2040/dma_spi/build/CMakeFiles/dma_spi.dir/home/debjit/rpi-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+  "/home/debjit/rp2040/dma_spi/image.c" "/home/debjit/rp2040/dma_spi/build/CMakeFiles/dma_spi.dir/image.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

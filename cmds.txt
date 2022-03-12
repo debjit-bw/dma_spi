@@ -1,0 +1,4 @@
+export PICO_SDK_PATH=$HOME/rpi-pico/pico-sdk
+rm -r *
+cmake ..
+make dma_spi
